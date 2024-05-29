@@ -12,16 +12,16 @@ const user = {
 <template>
   
   <header>
-    <RouterLink :to="{name: 'home'}" >Home</RouterLink>
+    <!-- <RouterLink :to="{name: 'home'}" >Home</RouterLink>
     <RouterLink :to="{name: 'company-info'}" >Info</RouterLink>
     <RouterLink to="/about" >About</RouterLink>
-    <RouterLink :to="`/user/${user.name}`" >User</RouterLink>
+    <RouterLink :to="`/user/${user.name}`" >User</RouterLink> -->
     <RouterView/>
 
     <div class="w ">
       <!-- <HelloWorld /> -->
       <!-- <FormComponent/> -->
-      <OptionComponent/>
+      <!-- <OptionComponent/> -->
     </div>
   </header>
 
